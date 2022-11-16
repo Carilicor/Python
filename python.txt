@@ -1,0 +1,49 @@
+s = "fruits"
+l = ("apple", "orange", "mango", "kiwi", "grapes")
+t = ("apple", "orange", "mango")
+
+Slicing  
+s[1:4]
+s[1:4:2]
+s[3:]
+s[:5]
+s[-1]
+s[-3:]
+s[:-2]
+
+Adding, Concatinating 
+s = "fruits" + "berries"
+l = ["apple", "orange", "mango"] + ["kiwi"]
+t = ["apple", "orange", "mango"] + ["kiwi"]
+
+
+
+
+
+unpacking 
+
+List 
+- Size 
+- Sortable 
+- List comprehensive 
+del, append, extend, pop, insert, remove 
+
+Tuples
+- Immutable 
+- Useful for fixed data
+- Faster than Lists from finding items 
+t = 2
+
+member objects can be mutable 
+t = ([0,1], 2)
+del(t[0][1])
+t += 4
+
+binary search 
+
+List should be sorted for this to work 
+nums = [1, 7, 10, 15, 30]
+target = 7
+
+| = regular division 
+|| = floor division = which will round down with no remainder 
